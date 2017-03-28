@@ -1,7 +1,7 @@
 include_defs('//BUCKAROO_DEPS')
 
 prebuilt_cxx_library(
-  name = 'boost-proto',
+  name = 'proto',
   header_only = True,
   header_namespace = 'boost/proto',
   exported_headers = subdir_glob([
